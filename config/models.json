@@ -1,1 +1,40 @@
-
+{
+    "online_models": {
+        "gemini": {
+            "display_name": "Gemini 3.5 Flash",
+            "model_name": "gemini-3.5-flash",
+            "type": "gemini",
+            "requires_key": true
+        },
+        "anthropic": {
+            "display_name": "Claude 4.6 Sonnet",
+            "model_name": "claude-4.6-sonnet",
+            "type": "anthropic",
+            "requires_key": true
+        },
+        "openai": {
+            "display_name": "GPT-4o",
+            "model_name": "gpt-4o",
+            "type": "openai",
+            "requires_key": true
+        }
+    },
+    "offline_models": {
+        "llama_vision": {
+            "display_name": "Llama 3.2 Vision",
+            "model_name": "llama3.2-vision",
+            "type": "ollama",
+            "url": "http://localhost:11434",
+            "requires_key": false
+        },
+        "qwen_vl": {
+            "display_name": "Qwen-VL",
+            "model_name": "qwen-vl",
+            "type": "ollama",
+            "url": "http://localhost:11434",
+            "requires_key": false
+        }
+    },
+    "active_online": "gemini",
+    "active_offline": "llama_vision"
+}
