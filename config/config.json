@@ -1,1 +1,18 @@
 
+---
+
+## 📄 فایل ۴: `config/config.json`
+
+```json
+{
+    "model_mode": "auto",
+    "hotkey": "ctrl+shift+s",
+    "theme": "dark",
+    "overlay_opacity": 0.3,
+    "crop_size": 200,
+    "max_history": 1000,
+    "cache_ttl_hours": 24,
+    "request_timeout": 30,
+    "max_retries": 3,
+    "fallback_enabled": true
+}
